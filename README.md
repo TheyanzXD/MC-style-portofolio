@@ -23,21 +23,9 @@ Website portofolio pribadi dengan antarmuka blocky/pixel terinspirasi dunia Mine
 
 Tidak ada proses instalasi dependency atau kompilasi.
 
-## Menambahkan foto profil nanti
+## Foto profil
 
-Saat foto sudah siap:
-
-1. Letakkan file foto di folder proyek, misalnya `foto-izyan.jpg`.
-2. Di `index.html`, cari komentar `<!-- Area avatar sementara: ganti dengan foto asli saat foto sudah tersedia. -->` tepat sebelum elemen `.avatar-sky` (untuk saat ini area avatar dibuat dari CSS).
-3. Ganti elemen `.avatar-sky` atau isi area `.id-card__avatar` dengan elemen gambar seperti berikut:
-
-   ```html
-   <img class="profile-photo" src="foto-izyan.jpg" alt="Foto M. Izyan Danish" />
-   ```
-
-4. Tambahkan aturan CSS `.profile-photo { width: 100%; height: 100%; object-fit: cover; }` sesuai area yang dipakai.
-
-Foto belum disertakan sehingga tampilan awal memakai ilustrasi avatar blok dan placeholder inisial.
+Foto profil sudah dipasang pada halaman utama dan kartu identitas di halaman profil. File foto berada di `assets/profile-photo.jpg`. Untuk menggantinya, timpa file tersebut dengan foto baru menggunakan nama file yang sama.
 
 ## Mengubah data profil
 
